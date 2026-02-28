@@ -1,0 +1,71 @@
+[01.03.26 12:02:33], Exception message: something, Stack trace: stupid
+
+[01.03.2026 0:04:11], Exception message: something, Stack trace: stupid
+
+[01.03.2026 0:05:37], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 81
+
+[01.03.2026 0:09:02], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 88
+
+[01.03.2026 0:18:00], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 95
+
+[01.03.2026 0:18:17], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 95
+
+[01.03.2026 0:18:36], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 95
+
+[01.03.2026 0:18:36], Exception message: Object reference not set to an instance of an object., Stack trace:    at GameDataParser.Program.Main(String[] args) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 26
+
+[01.03.2026 0:21:10], Exception message: '{' is invalid after a value. Expected either ',', '}', or ']'. Path: $[1] | LineNumber: 6 | BytePositionInLine: 2., Stack trace:    at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 95
+
+[01.03.2026 0:21:12], Exception message: Object reference not set to an instance of an object., Stack trace:    at GameDataParser.Program.Main(String[] args) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 26
+
+[01.03.2026 0:22:07], Exception message: The JSON value could not be converted to System.Collections.Generic.List`1[GameDataParser.Program+GameSave]. Path: $ | LineNumber: 0 | BytePositionInLine: 1., Stack trace:    at System.Text.Json.ThrowHelper.ThrowJsonException_DeserializeUnableToConvertValue(Type propertyType)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, T& value, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.Deserialize(Utf8JsonReader& reader, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 95
+
+[01.03.2026 0:28:22], Exception message: Value cannot be null.
+Parameter name: source, Stack trace:    at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at GameDataParser.Program.GameSave.IsEmpty() in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 50
+   at GameDataParser.Program.FileReader.ReadFile(String filename) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 100
+   at GameDataParser.Program.Main(String[] args) in C:\Users\user\source\repos\GameDataParser\GameDataParser\Program.cs:line 25
